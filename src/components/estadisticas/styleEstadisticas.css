@@ -1,0 +1,69 @@
+.container {
+  height: auto;
+  display: flex;
+  justify-content: start;
+  gap: 54px;
+  margin-top:25px;
+  font-family: 'Kaisei Opti', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Serif', serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.item {
+  width: 214px;
+  height: 143px;
+  border-radius: 30px;
+  border: 1px solid #D6D5D5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.item h4{
+  font-size:14px;
+  font-weight: 600;
+  margin-left: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.item h5{
+  font-size:36px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: #1A3D7D;
+  line-height: 0px;
+  margin-top: 35px;
+}
+
+
+.porcentaje{
+  font-size:12px;
+  font-weight: 400;
+  color: #777777;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: -45px;
+
+} 
+
+.porcentaje p{
+  font-size:12px;
+  padding:5px;
+  font-weight: 600;
+  margin-left: 20px;
+
+  border-radius: 10px;
+  color: #0D970A;
+  background:#D5FFD4
+}
+
+.porcentaje .porcentaje-negativo{
+  padding:5px;
+  font-size:12px;
+  font-weight: 600;
+  margin-left: 20px;
+
+  border-radius: 10px;
+  color: #A1140B;
+  background: #FFD4D4;
+}

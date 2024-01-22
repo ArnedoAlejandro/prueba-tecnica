@@ -1,0 +1,132 @@
+
+.nav-bar{
+  width: 243px;
+  height: 100%;
+  padding-bottom: 10px;
+  background: #1A3D7D;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+}
+
+
+.title{
+  color:#52A5F5;
+  margin-top: 25px;
+  font-size: 24px;
+  font-family: Baloo Bhai 2;
+  text-align: center;
+
+}
+.title span{
+  color: whitesmoke;
+}
+
+.container-bottom{
+  display: flex;
+  align-items: center;  
+}
+.item-buttom{
+  width:7px;
+  height:24px;
+  margin-left: -4px;
+  border-radius:20px;
+  background-color:#697EED;
+  position:absolute
+
+}
+.buttom-home {
+  width: 218px;
+  height: 42px;
+  top: 89px;
+  left: 12px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 2px solid transparent; /* Establece un borde transparente inicialmente */
+  gap: 20px;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.buttom-home p{
+  font-size:16px;
+  font-weight: bold;
+}
+.buttom-home:hover {
+  border-color: rgb(42, 42, 121);
+}
+.container-lista-nav {
+    background: rgb(151, 139, 139);
+  
+}
+
+.lista-nav {
+  display: grid;
+  height: auto;
+  width: auto;
+  place-items: start; 
+}
+
+.lista-nav li {
+  width: 90%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  margin-top: 19px;
+  padding-left:15px ;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor:pointer
+}
+
+.acordeon{
+  width:100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.acordeon div{
+  display: flex;
+  gap:15px;
+  align-items:center
+}
+.acordeon svg{
+  margin-right:10px ;
+}
+
+.num-pedido{
+  width: 32px;
+  height: 29px;
+  margin-left:40px ;
+  border-radius: 8px;
+  background: #367dfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salir{
+  width: 140px;
+  height:50px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:10px, 20px, 10px, 20px;
+  border-radius: 20px;
+  font-weight: 700  ;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+}
+.salir:hover{
+  border-color: rgb(42, 42, 121);
+}

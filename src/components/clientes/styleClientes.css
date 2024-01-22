@@ -60,6 +60,9 @@
   gap: 10px;
 
 }
+.avatar p{
+  font-weight: 500;
+}
 .date{
   width:auto;
   height:auto;
